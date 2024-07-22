@@ -27,9 +27,9 @@ function generateCardsHTML(data) {
     data.forEach(item => {
         html += `
             <div class="card">
-                <img src="Icon Button.png" alt="arrow1" class="arrow1" id="arrow1">
+                <img src="img/Icon Button.png" alt="arrow1" class="arrow1" id="arrow1">
                 <img src="${item.imageURL}" alt="${item.name}">
-                <img src="Frame 92.png" alt="arrow" class="arrow" id="arrow">
+                <img src="img/Frame 92.png" alt="arrow" class="arrow" id="arrow">
                 <div class="card-content">
                     <h4>${item.name}</h4>
                     <p class="titleDesk">${item.desc}</p>

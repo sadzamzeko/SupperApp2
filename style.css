@@ -1,0 +1,137 @@
+/*
+:root {
+    --header-background-color: #1b1e1f;
+    --header-text-font: #f4f4f4;
+    --description-background-color: #2b2b2b; 
+    --more-color:#4eabed;
+    --card-container-background-color:#161616;
+    --partners-section-background-color:#2b2b2b;
+    --terms-and-conditions-color:#dbdbdb;
+    --font_0: normal normal normal 24px/1.6em wfont_643d94_dd28b3957391427eb54de1c9eff7cfb1,wf_dd28b3957391427eb54de1c9e,orig_tbc_x_regular;
+    --card_border-color:#555555;
+    --font_11: normal normal normal 48px/1.6em wfont_643d94_f52303b2efea42e1b4aeed119e42672e,wf_f52303b2efea42e1b4aeed119,orig_tbc_x_black;
+   --border_color:#343131;
+   --button_background_color:#d5d5d5;
+    --footer_color:#1b1e1f;
+
+
+}
+
+
+*{
+    background-color: blanchedalmond;
+}
+    */
+ul,
+ol {
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/*  */
+
+.fullyBox{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+.lastCard{
+    display: flex;
+    justify-content: space-between;
+}
+.cardSection {
+    background-color: var(--card-container-background-color);
+    height: auto;
+    padding: 0 8%;
+    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 200px;
+    height: 414px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 2px var(--card_border-color) solid;
+    border-radius: 4px;
+}
+
+#arrow1{
+    display: block;
+    float: right;
+}
+/*.card .arrow1 {
+    width: 16px;
+    height: 13px; 
+    padding-left: 85px;
+     display: flex;
+    align-items: center; 
+    width: 20px;
+} */
+
+.textFully{
+    text-decoration: underline;
+}
+.titleDesk{
+    color: #717D96;
+}
+.priceText{
+    font-weight: bold;
+}
+
+/* party */
+.partyOffers{
+    position: relative;
+    margin: 50px auto;
+}
+.partyOffers img{
+    opacity: 70%;
+    display: block;
+    margin: 0 auto;
+    /* width: 100%; */
+}
+.partyOffersText{
+    position: absolute;
+    width: 400px;
+    left: 120px;
+    top: 72px;
+    /* background-color: aqua; */
+
+}
+.partyOffersText p{
+    padding: 30px 0;
+    font-weight: bold;
+}
+.partyOffersText button{
+    display: flex;
+    background-color: white;
+    border-radius: 4px;
+    border: 2px solid white;
+    font-weight: bold;
+    font-size: 17px;
+    /* vertical-align: middle;
+    text-align: center; */
+    padding: 20px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: #00ffff ; */
+    /* margin: 0 auto; */
+    /* padding: 0 10%; */
+}
+footer li{
+    padding: 8px 0;
+}
+li:first-child{
+    font-weight: bold;
+}

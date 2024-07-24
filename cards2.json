@@ -1,26 +1,26 @@
 [
     {
-    "imageURL":"img/img/image1.png",
+    "imageURL":"img/img/Image1.png",
     "name":"Oslo Wooden Armchair",
     "desc":"ეზოს სავარძელი",
     "price": 250.00
     },
     {
-        "imageURL":"img/img/image2.png",
+        "imageURL":"img/img/Image2.png",
         "name":"JONATHAN Knotted Rope LED Table Lamp",
         "desc":"მაგიდის სანათი",
         "price": 89.00,
         "link":""
     },
     {
-        "imageURL":"img/img/image3.png",
+        "imageURL":"img/img/Image3.png",
         "name":"Koopman",
         "desc":"სურათის ჩარჩო",
         "price": 450.00,
         "link":""
     },
     {
-        "imageURL":"img/img/image4.png",
+        "imageURL":"img/img/Image4.png",
         "name":"Seville Classics სათავსო",
         "desc":"ორგანაიზერი",
         "price": 188.93,

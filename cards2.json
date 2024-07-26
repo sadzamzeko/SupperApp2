@@ -3,27 +3,33 @@
     "imageURL":"img/img/Image1.png",
     "name":"Oslo Wooden Armchair",
     "desc":"ეზოს სავარძელი",
-    "price": 250.00
+    "price": "250.00 ₾",
+    "startPrice": "",
+    "discount": ""
+    
     },
     {
         "imageURL":"img/img/Image2.png",
-        "name":"JONATHAN Knotted Rope LED Table Lamp",
+        "name":"JONATHAN Table Lamp",
         "desc":"მაგიდის სანათი",
-        "price": 89.00,
-        "link":""
+        "price": "89.00 ₾",
+        "startPrice": "",
+        "discount": ""
     },
     {
         "imageURL":"img/img/Image3.png",
         "name":"Koopman",
         "desc":"სურათის ჩარჩო",
-        "price": 450.00,
-        "link":""
+        "price": "450.00 ₾",
+        "startPrice": "",
+        "discount": ""
     },
     {
         "imageURL":"img/img/Image4.png",
         "name":"Seville Classics სათავსო",
         "desc":"ორგანაიზერი",
-        "price": 188.93,
-        "link":"https://tbcacademy.ge/usaid/python-advance"
+        "price": "188.93 ₾",
+        "startPrice": "269.00 ₾",
+        "discount": "-50%"
     }
 ]

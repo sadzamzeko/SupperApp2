@@ -22,6 +22,18 @@
     background-color: blanchedalmond;
 }
     */
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+      }
+      
+      main {
+        margin: 0 5rem;
+      }
 ul,
 ol {
     list-style-type: none;
@@ -32,114 +44,295 @@ a{
 }
 /*  */
 
-.fullyBox{
+/* ყველაფერი შენი სახლისთვის */
+
+.fullyBox {
     display: flex;
     /* justify-content: space-around; */
     align-items: center;
-}
-.lastCard{
+  }
+  .lastCard {
     display: flex;
     justify-content: space-between;
-}
-.card2Section {
+  }
+  .card2Section {
     background-color: var(--card-container-background-color);
     height: auto;
-    padding: 0 8%;
-    /* margin: 0 auto; */
+    /* width: 100%; */
+    /* width: 1240px; */
+    /* padding: 0 8%; */
+    margin: 40px 0;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-}
-#cards2-container {
+  
+  }
+  #cards2-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-}
-
-.card2 {
-    width: 200px;
-    height: 414px;
+    margin-top: 32px;
+  }
+  
+  .card2 {
+    /* width: 200px; */
+    /* height: 414px; */
     margin-bottom: 20px;
     box-sizing: border-box;
-    border: 2px var(--card_border-color) solid;
     border-radius: 4px;
-}
-
-#arrowOne{
+    width: 263px;
+    height: 395px;
+    border-radius: 8px;
+    border: 1.5px solid #EFEFEF;
     display: block;
-    float: right;
-}
-/*.card .arrow1 {
-    width: 16px;
-    height: 13px; 
-    padding-left: 85px;
-     display: flex;
-    align-items: center; 
-    width: 20px;
-} */
-
-.textFully{
+    position: relative;
+    
+  }
+  
+  .cardIMg{
+    width: 255px;
+  }
+  #arrowOne {
+    display: inline-block;
+    position: absolute;
+    top: 8px;
+    right: 12px;
+  }
+  .arrowW{
+    display: inline-block;
+    position: absolute;
+    top: 161px;
+    left: 12px;
+  }
+  .textFully {
     text-decoration: underline;
-}
-.titleDesk{
+  }
+  
+  .titleDesk{
     color: #717D96;
-}
-.priceText{
+    padding: 0 0 22px 12px;
+  }
+  
+  .priceText {
     font-weight: bold;
-}
-.cartButton{
+    padding: 0 0 12px 12px;
+  }
+  .cartButton{
     background-color: #008BFF;
-    border-radius: 4px;
+    border-radius: 5px;
     border: 2px solid #008BFF;
     padding: 10px 35px;
     color: white;
-    margin: 10px 0 ;
-}
-/* party */
-.partyOffers{
+    margin: 12px 0 12px 12px ;
+    width: 90%;
+    height: 40px;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .allHomeName{
+    padding: 35px 0 15px 12px;
+  }
+  .allHomeStartPr{
+    font-size: 13px;
+    color: #616161;
+    text-decoration: line-through;
+  }
+  .allHomeDisc{
+    color: white;
+    border-radius: 30px;
+    padding: 6px;
+    background:#FF3333;
+  
+  }
+  /* საზაფხულო წვეულება */
+  
+  .partyOffers {
     position: relative;
-    margin: 50px auto;
-    /* margin-top: 20px; */
-}
-.partyOffers img{
+  
+  }
+  .partyOffers .mainImg {
     opacity: 70%;
+    width: 100%;
     display: block;
     margin: 0 auto;
-    /* width: 100%; */
 }
-.partyOffersText{
+.partyOffers .mainImgMobile{
+    display: none;
+}
+  .partyOffersText {
     position: absolute;
     width: 400px;
-    left: 120px;
-    top: 72px;
-    /* background-color: aqua; */
-
-}
-.partyOffersText p{
-    padding: 30px 0;
+    left: 82px;
+    top: 72px;}
+  .partyOffersText p {
+    padding: 50px 0;
     font-weight: bold;
-}
-.partyOffersText button{
+  }
+  .partyOffersText button {
     display: flex;
     background-color: white;
     border-radius: 4px;
     border: 2px solid white;
     font-weight: bold;
     font-size: 17px;
-    /* vertical-align: middle;
-    text-align: center; */
-    padding: 20px;
-}
-footer{
+    padding: 10px 16px;}
+  
+  .line{
+    border: 1px solid #CBD2E0;
+    margin: 40px 0 15px;}
+  
+    /* footer */
+  
+  footer {
     display: flex;
-    justify-content: space-around;
-    /* background-color: #00ffff ; */
-    /* margin: 0 auto; */
-    /* padding: 0 10%; */
-}
-footer li{
+    justify-content: space-between;
+    padding: 25px 5rem;
+  }
+  footer li {
     padding: 8px 0;
-}
-li:first-child{
+  }
+  li:first-child {
     font-weight: bold;
-}
+  
+  }
+  .footerIconMob{
+    display: none;
+  }
+  .lineMobile{
+    display: none;
+  }
+  
+  
+  /* responsive */
+  
+  
+  
+  @media (max-width: 780px) {
+    main {
+      margin:0 2rem;
+  }
+  
+  /* ყველაფერი შენი სახლისთვის  */
+  
+    .card2WrapperTitle{
+      font-size: 13px;
+    }
+    .textFully{
+      font-size: 12px;
+      color: #606060;
+      font-weight: bold;
+    }
+    .fullyBox img{
+      display: none;
+    }
+    .card2 {
+      width: 160px;
+      height: 279px;
+    }
+    .cardIMg{
+      width: 160px;
+      /* height: 139.5px; */
+    }
+    .card2-content{
+      width: 85%;
+      height: 139.5px;
+      gap:0px;
+    }
+    .allHomeName{
+      font-size: 14px;
+      line-height: 14px;
+      height: 30px;
+      /* margin-top: 15px; */
+    }
+    .titleDesk{
+      font-size: 10px;
+      height: 35px;
+    }
+    .arrowOne{
+      height: 24px;
+      width: 24px;
+    }
+    .arrowW{
+      position: absolute;
+      top: 115px;
+      width: 2rem;
+    }
+    .cartButton{
+    width: 100%;
+    font-size: 12px;
+    height: 32px; 
+    }
+  
+    /* საზაფხულო წვეულება */
+    .partyOffers .mainImg {
+        display: none;
+    }
+    .partyOffers .mainImgMobile{
+        display: inline;
+        opacity: 80%;
+    }
+    .partyOffersText {
+        width: 250px;
+        left: 24px;
+        top: 30px;}
+    .partyOffersText h3{
+        font-size: 12px;
+    }
+    .partyOffersText p {
+        padding: 32px 0;
+        font-weight: bold;
+        font-size: 10px;
+      }
+    .partyOffersText button {
+        height: 32px;
+        font-size: 10px;
+        margin-top: 12px;
+        align-items: center;    
+    }
+    .arrow3{
+        width: 20px;
+    }
+    .line{
+        margin:10px 2rem;
+
+    }
+    /* footer */
+    footer{
+        padding:10px 2rem;
+        flex-direction: column;
+    }
+    footer ul li{
+        display: none;
+    }
+    footer ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    footer ul li:first-child{
+        display: inline;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    footer ul li:last-child{
+        display: inline;
+    }
+   
+    .footerIconMob{
+        width: 24px;
+        display: inline;
+      }
+      .lineMobile{
+        display: inline;
+        /* margin:10px 2rem; */
+    width: 100%;}
+     .socialMedia{
+        display: inline;
+    }
+    .appGoogleImg {
+        flex-direction: column;
+    }
+    .appGoogleImg img{
+        width: 131px;
+    }
+  }

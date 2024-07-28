@@ -33,7 +33,7 @@ function generateCards2HTML(data) {
                 <div class="card2-content">
                     <h4 class="allHomeName">${item.name}</h4>
                     <p class="titleDesk">${item.desc}</p>
-                    <span class="priceText">${item.price}</span>&nbsp;&nbsp;
+                    <span class="priceText">${item.price}</span>&nbsp;
                    <span class="allHomeStartPr">${item.startPrice}</span>&nbsp;
                    ${
                     item.discount

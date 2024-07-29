@@ -43,6 +43,7 @@ function generateCards2HTML(data) {
                    
                     <br/>
                     <button type="button"  class="cartButton">კალათაში დამატება</button">
+                    <button type="button"  class="mobButton"><img src="img/img/Icon Left Wrapper.svg" alt="butt">&nbsp;&nbsp;&nbsp;დამატება</button">
                 </div>
             </div>
         `;

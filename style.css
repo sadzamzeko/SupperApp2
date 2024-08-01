@@ -204,7 +204,7 @@ a{
   .lineMobile{
     display: none;
   }
-  .mobiletest{
+  .mobileContainer{
     display: none;
   }
   .accordion{
@@ -292,7 +292,7 @@ a{
       border-radius: 15px;
       padding: 4px 2px;
       background: #FF3333;
-  }
+    }
     .titleDesk{
       font-size: 10px;
       height: 35px;
@@ -365,60 +365,52 @@ a{
 
     }
     /* footer */
-footer{
-  padding:0 1.5rem;
-  flex-direction: column;
-}
-footer .landingfooter{
-  display: none;
-}
-  .accordion{
-    display: inline;
-    /* margin-bottom: 20px; */
-
-}
-.accordion-title{
-    display: inline;
-    font-size: 14px;
-    line-height: 13.8px;
-    color: #000000;
-    /* margin-left: 16px; */
-}
-.accordion-content{
-  margin: 10px 0;
-}
-.accordion-content a{
-
-  font-size: 13px;
-    line-height: 13.8px;
-     color: #535353;
-}
-.accordion-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  cursor: pointer;
-  padding: 10px 0;
-  /* background: #f1f1f1; */
-}
-.lineMobile{
-  display: block;
-  border-top: 1px solid #CBD2E0;
-}
-.footerIconMob{
-  display: inline;
-}
-footer .landingfooter .socialMedia{
-  display: inline;
-}
-footer .mobileIcon{
-  display: inline;
-  margin-top: 8px;
-}  
-.mobiletest{
-  /* display: inline; */
-  display: flex;
-  justify-content: space-between;
-  margin-top: 10px;
-}
+    footer{
+      padding:0 1.5rem;
+      flex-direction: column;
+    }
+    footer .landingfooter{
+      display: none;
+    }
+    .accordion{
+      display: inline;
+    }
+    .accordion-title{
+      display: inline;
+      font-size: 14px;
+      line-height: 13.8px;
+      color: #000000;
+    }
+    .accordion-content{
+      display: none;
+      margin: 10px 0;
+    }
+    .accordion-content a{
+      font-size: 13px;
+      line-height: 13.8px;
+      color: #535353;
+    }
+    .accordion-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      cursor: pointer;
+      padding: 10px 0;
+    }
+    .lineMobile{
+      display: block;
+      border-top: 1px solid #CBD2E0;
+    }
+    .footerIconMob{
+      display: inline;
+    }
+    footer .mobileIcon{
+      display: inline;
+      margin-top: 8px;
+    }  
+    .mobileContainer{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+    }
   }

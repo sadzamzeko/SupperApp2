@@ -186,7 +186,7 @@ a{
   
     /* footer */
   
-  footer {
+  footer .landingfooter{
     display: flex;
     justify-content: space-between;
     padding: 25px 5rem;
@@ -194,7 +194,7 @@ a{
   footer li {
     padding: 8px 0;
   }
-  li:first-child {
+  .landingfooter li:first-child {
     font-weight: bold;
   
   }
@@ -204,7 +204,10 @@ a{
   .lineMobile{
     display: none;
   }
-  .mobileIcon{
+  .mobiletest{
+    display: none;
+  }
+  .accordion{
     display: none;
   }
   
@@ -362,56 +365,60 @@ a{
 
     }
     /* footer */
-    footer{
-      padding:0 1.5rem;
-      flex-direction: column;
-    }
-    footer ul li{
-      display: none;
-    }
-    footer ul{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    footer ul li:first-child{
-      display: inline;
-      font-size: 12px;
-      font-weight: 500;
-    }
-    footer ul li:last-child{
-      display: inline;
-    }
-   
-    .footerIconMob{
-      width: 24px;
-      display: inline;
-      }
-    .lineMobile{
-      display: inline;
-      border-top: 1px solid #CBD2E0;
-      /* margin:10px 2rem; */
-      width: 100%;
-    }
-    .socialMedia{
-      display: inline;
-    }
-    .mobileIcon{
-      display: inline;
-      margin-top: 8px;
-    }  
-    .appGoogleImg {
-      flex-direction: column;
-      padding-top: 2px;
-    }
-    .appGoogleImg img{
-      width: 131px;
-    }
-    footer .appGoogleImg li:nth-child(2){
-      padding-top: 0;
-    }
-    .mobiletest{
-      display: flex;
-      justify-content: space-between;
-    }
+footer{
+  padding:0 1.5rem;
+  flex-direction: column;
+}
+footer .landingfooter{
+  display: none;
+}
+  .accordion{
+    display: inline;
+    /* margin-bottom: 20px; */
+
+}
+.accordion-title{
+    display: inline;
+    font-size: 14px;
+    line-height: 13.8px;
+    color: #000000;
+    /* margin-left: 16px; */
+}
+.accordion-content{
+  margin: 10px 0;
+}
+.accordion-content a{
+
+  font-size: 13px;
+    line-height: 13.8px;
+     color: #535353;
+}
+.accordion-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 10px 0;
+  /* background: #f1f1f1; */
+}
+.lineMobile{
+  display: block;
+  border-top: 1px solid #CBD2E0;
+}
+.footerIconMob{
+  display: inline;
+}
+footer .landingfooter .socialMedia{
+  display: inline;
+}
+footer .mobileIcon{
+  display: inline;
+  margin-top: 8px;
+}  
+.mobiletest{
+  /* display: inline; */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
   }

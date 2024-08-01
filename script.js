@@ -15,8 +15,6 @@ document.addEventListener('DOMContentLoaded', () => {
     cards2Data().then(jsonData => {
         generateCards2HTML(jsonData);
     });
-    faqAnswer();
-    burgerMenu();
  
 });
 
@@ -51,3 +49,22 @@ function generateCards2HTML(data) {
 
     container.innerHTML = html;
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    const accordions = document.querySelectorAll('.accordion-header');
+    
+    accordions.forEach(header => {
+      header.addEventListener('click', function() {
+        const content = this.nextElementSibling;
+  
+        // Toggle the display of the accordion content
+        if (content.style.display === 'block') {
+          content.style.display = 'none';
+          // this.querySelector('.footerIconMob').style.transform = 'rotate(0deg)';
+        } else {
+          content.style.display = 'block';
+          // this.querySelector('.footerIconMob').style.transform = 'rotate(180deg)';
+        }
+      });
+    });
+  });

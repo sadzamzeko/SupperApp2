@@ -260,6 +260,7 @@ a{
     
     .cardIMg{
       width: 160px;
+      padding-top: 10px;
       /* height: 139.5px; */
     }
     .allHomeName{
@@ -306,6 +307,8 @@ a{
     .arrowW{
       position: absolute;
       top: 115px;
+      top: 120px;
+      left: 10px;
       width: 2rem;
     }
     .cartButton{

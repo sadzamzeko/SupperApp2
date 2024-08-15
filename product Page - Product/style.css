@@ -290,6 +290,12 @@ input[type="button"] {
   margin-top: 8px;
   align-items: center;
 }
+#reviews img {
+  margin-right: 3.5px;
+}
+#reviews img:last-child {
+  margin-right: 0;
+}
 .customerLine {
   margin: 24px 0;
 }

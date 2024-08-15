@@ -14,7 +14,7 @@ function updateStarDisplay() {
   document.querySelectorAll(".stars img").forEach((star) => {
     const value = parseInt(star.getAttribute("data-value"));
     if (value <= selectedRating) {
-      star.src = "ProductImg/Star 8.svg"; // Selected star
+      star.src = "ProductImg/Star8.svg"; // Selected star
     } else {
       star.src = "ProductImg/Star 7.svg"; // Default star
     }
@@ -60,7 +60,7 @@ function submitReview() {
     const starImg = document.createElement("img");
     starImg.alt = "star";
     starImg.src =
-      i <= selectedRating ? "ProductImg/Star 8.svg" : "ProductImg/Star 9.svg";
+      i <= selectedRating ? "ProductImg/Star8.svg" : "ProductImg/Star 9.svg";
     starsDiv.appendChild(starImg);
   }
   dateDiv.appendChild(starsDiv);
